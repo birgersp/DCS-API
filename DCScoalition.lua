@@ -21,4 +21,10 @@
 -- @param #number coalitionId, #number groupCategory
 -- @return #list<DCSGroup#Group>
 
+---
+-- Returns a table of unit objects that are currently occupied by players. Function is useful in multiplayer to easily filter client aircraft from everything else.
+-- @function [parent=#coalition] getPlayers
+-- @param #number coalitionId
+-- @return #list<DCSUnit#Unit>
+
 coalition = {} --#coalition
